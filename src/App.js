@@ -134,7 +134,7 @@ function App() {
             <Route path="forgot-password" element={<ForgotPassword logo={logo} />} />
             <Route path="support" element={<Support />} />
             <Route path="privacy-policy" element={<Privacy />} />
-            <Route path="terms-conditions" element={<TermsCondition />} />
+            <Route path="terms-conditions" element={<TermsCondition />}  />
             <Route path="*" element={<ErrorPage />} />
             <Route path="/404" element={<ErrorPage />} />
 
